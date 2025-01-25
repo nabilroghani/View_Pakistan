@@ -14,29 +14,39 @@
   </header>
 
   <nav>
-    <a href="#destinations">Destinations</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
-    <a href="#Packages" id="Packages">Packages</a>
-    <a href="#">Gallery</a>
+    <ul>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="dropdown">
+        <a href="#Packages">Packages</a>
+        <ul class="dropdown-content">
+          <li><a href="#">3 Days</a></li>
+          <li><a href="#">5 Days</a></li>
+          <li><a href="#">10 Days</a></li>
+          <li><a href="#">1 Month</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
   </nav>
 
   <section id="destinations">
     <h2>Top Destinations</h2>
     <div class="destinations">
       <div class="destination">
-        <img src="https://via.placeholder.com/300x200" alt="Destination 1">
-        <h3>Paris</h3>
+        <img src="./img/dir.jpg" alt="Destination 1">
+        <h3>Upper Dir</h3>
         <p>The city of lights and love, known for its iconic Eiffel Tower and rich culture.</p>
       </div>
       <div class="destination">
-        <img src="https://via.placeholder.com/300x200" alt="Destination 2">
-        <h3>Maldives</h3>
+        <img src="./img/hunza.jpeg" alt="Destination 2">
+        <h3>Hunza</h3>
         <p>Experience the serene beauty of pristine beaches and crystal-clear waters.</p>
       </div>
       <div class="destination">
-        <img src="https://via.placeholder.com/300x200" alt="Destination 3">
-        <h3>Tokyo</h3>
+        <img src="./img/swat-pakistan.avif" alt="Destination 3">
+        <h3>Swat</h3>
         <p>A perfect blend of modern skyscrapers and traditional temples.</p>
       </div>
     </div>
@@ -53,10 +63,11 @@
     <p>Email: info@exploretheworld.com</p>
     <p>Phone: +1 234 567 890</p>
   </section>
+
   <section id="Packages">
     <h2>Packages</h2>
-    <p>We are dedicated to helping you discover the most amazing places around the globe. Our mission is to inspire your
-      next adventure with carefully curated travel experiences.</p>
+    <p>We offer customized travel packages to suit every traveler’s needs. Choose from short trips to month-long
+      adventures!</p>
   </section>
 
   <footer>
